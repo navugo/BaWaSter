@@ -1,16 +1,17 @@
-.. BaWaSter documentation master file, created by
-   sphinx-quickstart on Wed Sep 16 02:32:14 2020.
+.. Ballasts Water Register documentation master file, created by
+   sphinx-quickstart on Tue Sep 15 12:07:49 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to BaWaSter's documentation!
-====================================
+Welcome to BAllasts WAter RegiSTER's documentation!
+===================================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
+   manual/index
+   dev/index
 
 Indices and tables
 ==================

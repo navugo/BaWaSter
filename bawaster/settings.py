@@ -20,7 +20,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '+%$+i8a#yko&213p1o#t_kr_q4ly%)2#9-lygy=d2g85)yl(w-'
+with open('../data/django_secret.key') as f:
+    # Todo: to update location of django_secret.key to an appropriate location.
+    SECRET_KEY = f.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -76,7 +78,8 @@ WSGI_APPLICATION = 'bawaster.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR / '../data/bawater.db',
+        # Todo: to update location of database to an appropriate location.
     }
 }
 
