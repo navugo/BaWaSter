@@ -35,4 +35,13 @@ PyCharm and Git.
  * cd src
  * pip install -r requirements.txt
 
+* Create `data` directory above src. Put inside a text file named `django_secret.key`, the secret-key for this django project.
+* launch:
+
+  * `python manage.py migrate` to create database
+  * `python manage.py createsuperuser` to create a super user to access http://127.0.0.1:8000/admin
+  * `python manage.py runserver` to launch production server
+
+At this stage you are able to populate database tables : Ballasts, Pumps and Quantity directly from admin interface.
+
 Ready to code!
