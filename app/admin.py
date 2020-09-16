@@ -1,3 +1,1 @@
-from django.contrib import admin
-
-# Register your models here.
+from django.contrib import admin# Register your models here.from .models import Ballast, Pump, Quantityadmin.site.register(Ballast)admin.site.register(Pump)admin.site.register(Quantity)
