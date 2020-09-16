@@ -8,6 +8,10 @@ The goal of this application is to be able to provide a full electronic version
 of the Ballast Logbook, used on merchant ships to show evidences that they did 
 comply with regulation when ballasting / deballasting on board.
 
+### Documentation
+
+User & Developer manuals are available on [readthedocs](https://bawaster.readthedocs.io). 
+
 ### Development installation
 
 This repository has to be installed in a python virtual environment, then 
