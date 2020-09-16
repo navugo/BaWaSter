@@ -4,17 +4,13 @@
 
 ### Description
 
-The goal of this application is to be able to provide a full electronic version
-of the Ballast Logbook, used on merchant ships to show evidences that they did
-Comply with regulation when ballasting / deballasting on board.
+The goal of this application is to be able to provide a full electronic version 
+of the Ballast Logbook, used on merchant ships to show evidences that they did 
+comply with regulation when ballasting / deballasting on board.
 
-### Notes de développement
+### Development installation
 
-* Application en python, version 3.8.
+This repository has to be installed in a python virtual environment, then 
+install dependencies from src/requirements.txt.
 
-### Applications à utiliser
-
-* Frontend et backend django
-* Interface graphique en Qt (Trouver et installer QT Developper)
-* module (pip) pyside ?
-
+See **developer manual** for more details information.

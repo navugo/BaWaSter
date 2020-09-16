@@ -1,6 +1,12 @@
 Developer Manual
 ================
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   install
+
 Table des matières
 
 * Participer à *Ballasts Register*
