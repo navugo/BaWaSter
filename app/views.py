@@ -2,6 +2,7 @@ from django.shortcuts import get_object_or_404, render
 from .models import Record
 
 
+app_name = 'app'
 def index(request):
     """used to display index page of application"""
     return render(request, 'app/index.html')
